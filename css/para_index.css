@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+}
+#menu_1{
+    width: 100%;
+    background-color: aliceblue;
+    height: 60px;
+    align-items: center;
+    font-size: 25px;
+}
+#contenedor{
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+   
+        
+}
+.img_1{
+    width: 100%;
+    margin-top: -120px;
+    
+}
+#video{
+    width: 100%;
+       
+}
+#logo{
+    float: left;  
+    width: 100%;
+ 
+}
+#info_2{
+    margin: 30px;
+    padding: 5;
+    
+}
+#foot{
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+#vista_2{
+    display: none;
+}
+ul{
+    list-style: none;
+}
+.img_Red{
+    width: 10%;
+}
+.img_Red1{
+    width: 5%;
+}
+.img_fin{
+    width: 35%;
+}
+
+#capa_0{
+/*    background-color: rgba(65,105,255);*/
+    position: absolute;
+    z-index: 1;
+    width: 33%;
+    display: flex; 
+    margin-top: 70px;  
+    margin-left: 120px;    
+    border-radius: 30px; 
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+#eden_L{
+    width: 95%;
+    margin-left: 15px;
+    }
+
+@media screen and (max-width: 1024px){
+
+    #video{
+        width: 100%;
+    }
+    
+    
+}
+@media screen and (max-width: 900px){
+
+    #video{
+    width: 100%;
+    }
+
+    .disenos_ai{
+        display: none;
+    }
+    .btn-invertir{
+        display: none;
+    }
+    .btn-invertir2{
+        display: none;
+    }
+    .btn-invertir3{
+        display: none;
+    }
+    #info_2{
+        display: none;
+    }
+    #foot{
+        display: none;
+    }
+    #foot_V{
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    }
+    .thefondo{ display: none;}
+    .thefondo2{display: none;}
+    .thefondo3{ display: none;}
+    .thefondo4{ display: none;}
+   
+    #vista_2{
+        display: block;
+        width: 100%;
+    }
+    .img_2{
+        width: 100%;
+    }
+    .dis_vista{
+        width: 60%;
+    }
+    hr{
+        display: none;
+    }
+    .ul_v{
+        background-color: #C3CAE5;
+        list-style: none;
+    }
+    .ul_va{
+        background-color: #414550;
+        list-style: none;
+        color: white;
+    }
+    #ul_v1{
+        background-color:darkgreen;
+        color: white;
+    }
+    .btn-invertir_V{background-color: #462E63; color:greenyellow; padding: 10px;  border-radius: 15px;}
+    #tex4{ display: none;}
+    
+    .img_fin{
+        width: 60%;
+    }
+    #capa_0{
+        width: 70%;
+        margin-top: 30px;
+        margin-left: 8px;
+        
+        
+    }
+    #logo_edeninicio_1{
+        width: 135%;
+    }
+    #eden_L{
+    width: 100%;
+    margin-left: 3px;
+    }
+   
+    
+        
+}
+    
+    

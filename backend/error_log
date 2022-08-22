@@ -1,0 +1,1 @@
+[21-Jun-2022 13:59:59 America/Guayaquil] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jirehedu'@'localhost' (using password: YES) in /home/psinvest/public_html/backend/inserta_usuarios.php on line 17

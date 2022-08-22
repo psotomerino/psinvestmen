@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+}
+#sec1{
+    position: relative;
+}
+#sec2{
+    position: relative;
+}
+#sec3{
+    position: relative;
+}
+.sec2A{
+    display: none;
+}
+
+.capa_1{
+    /*background-color: rgba(0, 0, 0, .5);*/ 
+    width: 100%; 
+    height: 95%; 
+    display: block; 
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+}
+
+#text1{
+    margin-top: 230px;
+    margin-right: 120px;
+    position: relative;
+    float: right;
+    width: 50%;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#logo_eden{
+    width: 40%;    
+}
+#mitad_M{
+    width: 48%;
+    margin-left: 30px;
+}
+#first{
+    width: 48%;
+
+}
+#text2{
+   
+    color: antiquewhite;
+    width: 90%;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.3);
+}
+.der{   
+    text-align: left;
+}
+.iz{    
+    text-align: right;
+}
+
+.fila{
+    margin-top: 100px;
+}
+.filaA{
+    margin-top: 40px;
+}
+#btn_{
+    padding: 10px;
+    background-color: #1F497D;
+    color: antiquewhite;
+}
+@media screen and (max-width: 1024px){
+    
+    .contenedor{
+        width: 100%;
+    }    
+        #logo_eden{
+        display: block;
+        width: 40%;
+        margin-left: 130px;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    
+    #logo_eden{
+        display: block;
+        width: 23%;
+        margin-left: 130px;
+    }
+    #text1{
+        margin-top: 1px;
+        width: 95%;
+        margin-right: 10px;
+        padding: 5px;
+        text-align: justify;
+        font-size: 12px;
+        background-color: rgba(0,0,0,0.3);
+    }
+    
+    #mitad_M{
+    width: 90%;
+    margin-left: 15px;
+    }
+    
+    #first{
+        width: 90%;     
+        margin-left: 15px;
+
+    }
+    .sec2A{
+        display: block;
+    }
+    #text2{
+        color: antiquewhite;
+        width: 90%;
+        font-size: 13px;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+        background-color: rgba(0,0,0,0.3); 
+    }
+    .item_B{
+        width: 70%;
+    }
+    .der{   
+    text-align: center;
+    }
+    .iz{    
+        text-align: center;
+    }
+
+    .fila{
+        margin-top: 5px;
+    }
+    .filaA{
+        margin-top: 10px;
+    }
+
+}

@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+}
+body, html {
+    height: 100%;
+}
+.contenedor{
+    background-image: url(../imagenes/nft/nft_img.jpg);
+    background-repeat: no-repeat;
+    
+}
+@media screen and (max-width: 1024px){
+    .contenedor{
+    background-image: url(../imagenes/nft/nft_img_mobil.jpg);
+    background-repeat: no-repeat;
+    }
+    .nft_imagen{
+        width: 90%;
+    }
+    
+}
+@media screen and (max-width: 900px){
+    .contenedor{
+    background-image: url(../imagenes/nft/nft_img_mobil.jpg);
+    background-repeat: no-repeat;
+    }
+    .nft_imagen{
+        width: 90%;
+    }
+    
+}
+#btn_{
+    padding: 10px;
+    background-color: #ffffff;
+    color: #1F497D;
+    width: 50%;
+    font-size: 22px;
+    font-family: monospace;
+}
+.emotion{
+    margin-top: 10px;
+    text-align: center;
+}
+.logos_otros{
+    width: 20%;
+}

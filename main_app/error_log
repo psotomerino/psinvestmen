@@ -1,0 +1,6 @@
+[27-Jul-2022 11:34:34 America/Guayaquil] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/psinvest/public_html/main_app/salir_perfil.php on line 5
+[27-Jul-2022 11:34:34 America/Guayaquil] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/psinvest/public_html/main_app/salir_perfil.php on line 7
+[27-Jul-2022 11:53:24 America/Guayaquil] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/psinvest/public_html/main_app/salir_perfil.php on line 5
+[27-Jul-2022 11:53:24 America/Guayaquil] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/psinvest/public_html/main_app/salir_perfil.php on line 7
+[28-Jul-2022 11:29:46 America/Guayaquil] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/psinvest/public_html/main_app/salir_perfil.php on line 5
+[28-Jul-2022 11:29:46 America/Guayaquil] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/psinvest/public_html/main_app/salir_perfil.php on line 7

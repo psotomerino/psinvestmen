@@ -1,0 +1,26 @@
+#btn_movil{
+    display: none;
+}
+
+#btn_cerrar{
+    display: none;
+}
+@media screen and (max-width: 900px){
+    
+    #menu_movil{
+        display: block;
+    }
+    #btn_cerrar{
+        display: block;
+    }
+    .menu_btn{
+        display: none;
+    }
+    #logo_edeninicio{
+        width: 70%;
+    }
+    #btn_movil{
+        display: block;
+        padding: 10px;
+    }
+}
