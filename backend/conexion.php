@@ -1,6 +1,6 @@
 <?php 
 function getConn(){
-  $mysqli = mysqli_connect('localhost','psinvest','Pasm.2022jc)','psinvest_master');
+  $mysqli = mysqli_connect('','','','');
 
   if (mysqli_connect_errno($mysqli))
     echo "Fallo al conectar a MySQL: " . mysqli_connect_error();
