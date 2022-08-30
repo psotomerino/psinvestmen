@@ -69,3 +69,5 @@
         </center> 
     </div>
 </div>
+<script src="../../js/para_formperfiles.js"></script>
+<script src="../../js/perfiles.js"></script>

@@ -1,1 +1,29 @@
 [21-Jun-2022 13:59:59 America/Guayaquil] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jirehedu'@'localhost' (using password: YES) in /home/psinvest/public_html/backend/inserta_usuarios.php on line 17
+[05-Aug-2022 10:05:34 America/Guayaquil] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/psinvest/public_html/backend/crud_usuarios.php on line 19
+[05-Aug-2022 10:07:11 America/Guayaquil] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/psinvest/public_html/backend/crud_usuarios.php on line 19
+[05-Aug-2022 10:07:36 America/Guayaquil] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/psinvest/public_html/backend/crud_usuarios.php on line 19
+[05-Aug-2022 10:09:27 America/Guayaquil] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, bool given in /home/psinvest/public_html/backend/inserta_usuarios.php on line 47
+[05-Aug-2022 10:09:27 America/Guayaquil] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, bool given in /home/psinvest/public_html/backend/inserta_usuarios.php on line 50
+[05-Aug-2022 10:09:27 America/Guayaquil] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, bool given in /home/psinvest/public_html/backend/inserta_usuarios.php on line 57
+[05-Aug-2022 10:09:29 America/Guayaquil] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/psinvest/public_html/backend/crud_usuarios.php on line 19
+[05-Aug-2022 10:09:33 America/Guayaquil] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/psinvest/public_html/backend/crud_usuarios.php on line 19
+[05-Aug-2022 10:09:35 America/Guayaquil] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/psinvest/public_html/backend/crud_usuarios.php on line 19
+[05-Aug-2022 10:09:42 America/Guayaquil] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/psinvest/public_html/backend/crud_usuarios.php on line 19
+[05-Aug-2022 10:09:47 America/Guayaquil] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/psinvest/public_html/backend/crud_usuarios.php on line 19
+[05-Aug-2022 10:10:05 America/Guayaquil] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/psinvest/public_html/backend/crud_usuarios.php on line 19
+[05-Aug-2022 10:10:15 America/Guayaquil] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/psinvest/public_html/backend/crud_usuarios.php on line 19
+[05-Aug-2022 10:10:35 America/Guayaquil] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/psinvest/public_html/backend/crud_usuarios.php on line 19
+[05-Aug-2022 10:10:41 America/Guayaquil] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/psinvest/public_html/backend/crud_usuarios.php on line 19
+[05-Aug-2022 16:09:51 America/Guayaquil] PHP Parse error:  syntax error, unexpected '}' in /home/psinvest/public_html/backend/inserta_perfiles.php on line 39
+[05-Aug-2022 16:09:51 America/Guayaquil] PHP Parse error:  syntax error, unexpected '}' in /home/psinvest/public_html/backend/inserta_perfiles.php on line 39
+[05-Aug-2022 16:09:55 America/Guayaquil] PHP Parse error:  syntax error, unexpected '}' in /home/psinvest/public_html/backend/inserta_perfiles.php on line 39
+[05-Aug-2022 16:09:55 America/Guayaquil] PHP Parse error:  syntax error, unexpected '}' in /home/psinvest/public_html/backend/inserta_perfiles.php on line 39
+[06-Aug-2022 23:47:53 America/Guayaquil] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, bool given in /home/psinvest/public_html/backend/inserta_usuarios.php on line 49
+[06-Aug-2022 23:47:53 America/Guayaquil] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, bool given in /home/psinvest/public_html/backend/inserta_usuarios.php on line 52
+[06-Aug-2022 23:47:53 America/Guayaquil] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, bool given in /home/psinvest/public_html/backend/inserta_usuarios.php on line 59
+[10-Aug-2022 10:24:13 America/Guayaquil] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, bool given in /home/psinvest/public_html/backend/inserta_ventas.php on line 25
+[10-Aug-2022 10:24:13 America/Guayaquil] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, bool given in /home/psinvest/public_html/backend/inserta_ventas.php on line 28
+[10-Aug-2022 10:24:13 America/Guayaquil] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, bool given in /home/psinvest/public_html/backend/inserta_ventas.php on line 35
+[10-Aug-2022 10:26:42 America/Guayaquil] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, bool given in /home/psinvest/public_html/backend/inserta_ventas.php on line 25
+[10-Aug-2022 10:26:42 America/Guayaquil] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, bool given in /home/psinvest/public_html/backend/inserta_ventas.php on line 28
+[10-Aug-2022 10:26:42 America/Guayaquil] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, bool given in /home/psinvest/public_html/backend/inserta_ventas.php on line 35

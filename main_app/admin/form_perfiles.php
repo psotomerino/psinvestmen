@@ -50,7 +50,7 @@
         <div class="row">
             <div class="col-12">
                <form id="form_perfiles">
-                    <input type="hidden" class="form-control" id="Id_usuariospP" name="Id_usuariospP">   
+                <input type="hidden" class="form-control" id="Id_usuariospP" name="Id_usuariospP">   
                     <select  class="form-control" id="perfil" required name="perfil">
                             <option value="Asesor">Asesor</option>
                             <option value="Admin">Admin</option>                         
