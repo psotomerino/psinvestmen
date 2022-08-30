@@ -13,23 +13,62 @@
 
 ?>
 <link rel="stylesheet" href="css/estilo_index.css">
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-12">
-            <div class="card card-inverse" style="background-color: #333; border-color: #333;">
-                <div class="card-block">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-8 text-center">
-                            <h2 class="card-title">Patricio Soto Merino</h2>
-                            <p class="card-text"><strong>Asesor Comercial</strong></p>                           
-                        </div>
-                        <div class="col-md-4 col-sm-4 text-center">
-                            <img class="btn-md" id="fot_per" src="../imagenes/Elizabeth_paredes.jpeg" style="border-radius:50%;">
-                        </div>
-                    </div>        
-                </div>
-
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"rel="stylesheet">
+<body>
+    <div class="container">
+        <div class="user-image">
+            <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20210223165952/gfglogo.png"
+            alt="this image contains user-image">
+        </div>
+ 
+        <div class="content">
+            <h3 class="name">Geeks-For-Geeks</h3>
+            <p class="username">@geeks_for_geeks</p>
+ 
+ 
+            <div class="links">
+                <a class="facebook" href=
+"https://www.facebook.com/geeksforgeeks.org/"
+                    target="_blank" title="GFG_facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+ 
+                <a class="git" href=
+"https://github.com/topics/geeksforgeeks"
+                    title="GFG_github" target="_blank">
+                    <i class="fab fa-github-square"></i>
+                </a>
+ 
+                <a class="linkedin" href=
+"https://www.geeksforgeeks.org/tag/linkedin/"
+                    title="GFG_linkedin" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                 
+                <a class="insta" href=
+"https://www.instagram.com/geeks_for_geeks/?hl=en"
+                    target="_blank" title="GFG_instagram">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
             </div>
+ 
+            <p class="details">
+                A Computer Science portal for geeks
+            </p>
+ 
+ 
+            <a class="effect effect-4" href="#">
+                Message
+            </a>
         </div>
     </div>
-</div>
+     
+    <!-- This is link of adding small images
+         which are used in the link section  -->
+    <script src="https://kit.fontawesome.com/704ff50790.js"
+        crossorigin="anonymous">
+    </script>
+</body>
+ 
+</html>
