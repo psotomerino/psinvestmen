@@ -15,11 +15,11 @@
 <link rel="stylesheet" href="css/estilo_index.css">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"rel="stylesheet">
 <body>
+    <center>
     <div class="container">
         <div class="user-image">
-            <img src="../imagenes/Elizabeth_paredes.jpeg" alt="this image contains user-image">
-        </div>
- 
+            <img src="../imagenes/Elizabeth_paredes.jpeg";>
+        </div> 
         <div class="content">
             <h3 class="name">Elizabeth Paredes</h3>
             <p class="username">@asesor_comercial</p> 
@@ -45,6 +45,8 @@
             </a>
         </div>
     </div>
+    </center> 
+
      
     <!-- This is link of adding small images
          which are used in the link section  -->
