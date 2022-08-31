@@ -17,49 +17,31 @@
 <body>
     <div class="container">
         <div class="user-image">
-            <img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20210223165952/gfglogo.png"
-            alt="this image contains user-image">
+            <img src="../imagenes/Elizabeth_paredes.jpeg" alt="this image contains user-image">
         </div>
  
         <div class="content">
-            <h3 class="name">Geeks-For-Geeks</h3>
-            <p class="username">@geeks_for_geeks</p>
- 
- 
+            <h3 class="name">Elizabeth Paredes</h3>
+            <p class="username">@asesor_comercial</p> 
             <div class="links">
-                <a class="facebook" href=
-"https://www.facebook.com/geeksforgeeks.org/"
-                    target="_blank" title="GFG_facebook">
+                <a class="facebook" href="https://www.facebook.com/" target="_blank" title="">
                     <i class="fab fa-facebook"></i>
-                </a>
- 
-                <a class="git" href=
-"https://github.com/topics/geeksforgeeks"
-                    title="GFG_github" target="_blank">
+                </a> 
+                <!-- <a class="git" href= "https://github.com/topics/geeksforgeeks" title="GFG_github" target="_blank">
                     <i class="fab fa-github-square"></i>
-                </a>
- 
-                <a class="linkedin" href=
-"https://www.geeksforgeeks.org/tag/linkedin/"
-                    title="GFG_linkedin" target="_blank">
+                </a> 
+                <a class="linkedin" href= "https://www.geeksforgeeks.org/tag/linkedin/" title="GFG_linkedin" target="_blank">
                     <i class="fab fa-linkedin"></i>
-                </a>
-                 
-                <a class="insta" href=
-"https://www.instagram.com/geeks_for_geeks/?hl=en"
-                    target="_blank" title="GFG_instagram">
+                </a>                  -->
+                <a class="insta" href="https://www.instagram.com/" target="_blank" title="">
                     <i class="fab fa-instagram-square"></i>
                 </a>
-            </div>
- 
+            </div> 
             <p class="details">
-                A Computer Science portal for geeks
-            </p>
- 
- 
+                P&S Group Investment
+            </p> 
             <a class="effect effect-4" href="#">
-                Message
+                INCIAR 
             </a>
         </div>
     </div>
