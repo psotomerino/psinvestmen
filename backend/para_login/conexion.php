@@ -1,7 +1,11 @@
-<?php
-    $mysqli = new mysqli('localhost','psinvest','Pasm.2022jc)','psinvest_master');
-    if($mysqli->connect_errno):
-        echo "Error al conectarse con Mysql debido al error: ".$mysqli->connect_errno;
-    endif;
-    //echo "conexion correcta";
+<?php 
+function getConn(){
+  $mysqli = mysqli_connect('localhost','psinvest','Pasm.2022jc)','psinvest_master');
+
+  if (mysqli_connect_errno($mysqli))
+    echo "Fallo al conectar a MySQL: " . mysqli_connect_error();
+  $mysqli->set_charset('utf8');
+  return $mysqli;
+}
+
 ?>
