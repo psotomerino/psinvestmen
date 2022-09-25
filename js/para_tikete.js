@@ -51,7 +51,9 @@ $(document).on('click','#btn_registrar_v',function(e){
 
                   });           
     
-                });    
+                }); 
+
+
     
 //*****FIN DE TODO    
 })

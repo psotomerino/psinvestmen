@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
     lista_usuarios();
-    //contar_ticket();
+    contar_ticket();
     //$('.contenedor_crud').hide();
     $('.contenedor_nuevoU').hide();
     $('.contenedor_editU').hide();
@@ -42,21 +42,18 @@ jQuery(document).ready(function(){
         let id_de_usuario = $(elemento).attr('elmentoid');        
         editar_usuario(id_de_usuario);
     });
-    
+//*** FUNCION CONTAR TIKET GENERAL */    
     function contar_ticket(){
         $.ajax({
             type: 'POST',
             url: '../../backend/contar_ticket.php',
         })
-        .done(function(num_boleto){
-            const total = JSON.parse(num_boleto);
-            //alert (total.boleto); 
-            //alert (total.total_ticket);
-            //$('#docente_').html(listas_docente); 
-            let total_ =  parseInt(total.boleto, 10);
-            //let matri_numero = respuesta_incre + 1;  
-            console.log (total_);
-            //$('#num_matri').val(matri_numero); 
+        .done(function(num_boleto){            
+            var total = JSON.parse(num_boleto);
+            for (var i = 0; i < total.length; i++) {
+                var tot_bol= total[i].boleto;  
+                $('#num_tik').text(tot_bol);            
+           } 
 
         })
         .fail(function(){
@@ -64,7 +61,26 @@ jQuery(document).ready(function(){
         });
 
         }
-    
+//*** FUNCION CONTAR TIKET POR USUARIO */
+/*function contar_ticket(){
+    $.ajax({
+        type: 'POST',
+        url: '../../backend/contar_ticket.php',
+    })
+    .done(function(num_boleto){            
+        var total = JSON.parse(num_boleto);
+        for (var i = 0; i < total.length; i++) {
+            var tot_bol= total[i].boleto;  
+            $('#num_tik').text(tot_bol);            
+       } 
+
+    })
+    .fail(function(){
+        alert ('hubo un error al cargar cantidad de tickets ');
+    });
+
+    }*/
+//** */    
     function editar_usuario(id_de_usuario){
         let id = id_de_usuario;
         var id_envio ={"id_envio":id};     

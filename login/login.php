@@ -27,10 +27,27 @@
     .txt_{
         color: azure;
         text-decoration: none;            
-    }  
+    } 
+    .error{
+        width: 35%;
+        margin-top: 250px;
+        margin-left: 50px;
+        float: left;
+        position: absolute;
+        -webkit-box-shadow: 3px 12px 23px -5px rgba(3,3,3,0.57);
+        -moz-box-shadow: 3px 12px 23px -5px rgba(3,3,3,0.57);
+        box-shadow: 3px 12px 23px -5px rgba(3,3,3,0.57);
+        background-color: #8f1b1b;  
+        color: whitesmoke;      
+        padding: 2px;  
+        text-align: center;      
+    }
+ 
 </style>
 <body class="bg-dark">
+
 <section>
+    <div class="error" >LOS DATOS DE INGRESO NO SON LOS CORRECTOS</div>
     <div class="row g-0">
         <div class="col-lg-7"> </div>
     </div>
@@ -52,7 +69,7 @@
                     <label for="contra" class="form-label font-weight-bold">Contraseña</label>
                     <input type="password" name="passlg" class="form-control bg-dark-x border-0"  required>
                 </div> 
-                <button class="btn btn-primary w-100" id="IngresoLog" type="submit">Iniciar Sesión</button> 
+                <button class="btn btn-primary w-100 botonlg" id="IngresoLog" type="submit">Iniciar Sesión</button> 
             </form>
             <a href="https://www.psinvestmen.com/" class="txt_" >Ir a la pagina principal </a>
         </div>    
@@ -60,6 +77,7 @@
 </section>
 </body>
 <script>
+    $('.error').hide();
     $(document).ready(function () {
       $('#menu').load('../templates/header.html');
     });

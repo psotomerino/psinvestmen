@@ -45,12 +45,13 @@
     #cont_crud{
         width: 78%;
     }
-    #num_tik{
+    #tot_tik{
         margin-top: 60px;
         background-color: yellowgreen;
         padding: 3px;
         text-align: center;
         font-size: 30px;
+        color: black;
     }
     #total_tic{
         font-size: 12px;
@@ -101,7 +102,10 @@
                 <span>Salir</span>
               </div>-->   
            </div>
-            <div id="num_tik">5 <br><p id="total_tic">Tickets</p></div>
+           <div id="tot_tik">
+           <p id="num_tik"></p>
+           <p id="total_tic">Tickets vendidos</p>
+           </div>
         </div>
     </div>
 </div> 

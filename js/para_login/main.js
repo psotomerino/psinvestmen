@@ -1,15 +1,15 @@
 jQuery(document).on('submit','#formlg',function (event){
-    event.preventDefault();
+    event.preventDefault();    
     //alert ('deteiene el evento del login.php') ;
     jQuery.ajax({
         url: '../../backend/para_login/sesion_ini.php',
         type: 'POST',
         dataType: 'json',
         data: $(this).serialize(),
-        // beforeSend: function(){
-        //     $('.botonlg').val('Validando');
+        beforeSend: function(){
+             $('.botonlg').text('Validando....');
 
-        // }
+         }
     })
     .done (function(respuesta){
         console.log(respuesta);
@@ -32,13 +32,13 @@ jQuery(document).on('submit','#formlg',function (event){
                 location.href = 'main_app/curriculares/';
             }*/
 
-        }else{/*
-            $('.error').slideDown('slow');
+        }else{
+           $('.error').slideDown('slow');
            setTimeout(function(){
                  $('.error').slideUp('slow');
            },3000);
-           $('.botonlg').val('Iniciar Sesión');*/
-           alert ('fallo al iniciar sesion'); 
+           $('.botonlg').text('Iniciar Sesión');
+           //alert ('fallo al iniciar sesion'); 
         }
     })
     .fail (function(resp){
