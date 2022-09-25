@@ -1,6 +1,5 @@
 <?php
 require_once 'conexion.php';
-
 function get_usuarios(){
     $mysqli = getConn();
     $query ="SELECT 

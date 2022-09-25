@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
     lista_usuarios();
-    contar_ticket();
+    //contar_ticket();
     //$('.contenedor_crud').hide();
     $('.contenedor_nuevoU').hide();
     $('.contenedor_editU').hide();
