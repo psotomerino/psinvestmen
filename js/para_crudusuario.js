@@ -71,6 +71,11 @@ jQuery(document).ready(function(){
         var total = JSON.parse(num_boleto);
         for (var i = 0; i < total.length; i++) {
             var tot_bol= total[i].boleto;  
+
+
+
+
+            
             $('#num_tik').text(tot_bol);            
        } 
 
